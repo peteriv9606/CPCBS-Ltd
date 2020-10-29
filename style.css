@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Exo-Regular";
+    src: url("resources/fonts/Exo-VariableFont_wght.ttf")
+}
+@font-face {
+    font-family: "Exo-Italic";
+    src: url("resources/fonts/Exo-Italic-VariableFont_wght.ttf")
+}
+body{
+    margin: 0px;
+}
+.topbar{
+    display: flex;
+    background-color: black;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-family: "Exo-Regular";
+    font-weight: 500;
+}
+.topbar > div.social {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    width: 30%;
+}
+div.social > div.social_icon {
+    width:50%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.topbar > div.empty {
+    display:block;
+    width: 30%;
+}
+.topbar > div.contact {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    width: 30%;
+}
+div.contact > div.el {
+    width:50%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+a.mail > img,
+a.phone > img {
+    height: inherit;
+    vertical-align: middle;
+}
+
+a.mail, 
+a.phone {
+    text-decoration: none;
+    color: white;
+    height: 20px;
+}
+div.el:hover,
+a.mail:hover, 
+a.phone:hover{
+    color:rgba(0, 0, 255, 0.507);
+    background-color: red;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.header {
+    margin: 0px;
+    background-color: black;
+}
+.header > img {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-family: "Exo-Regular";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a.button {
+    text-decoration: none;
+    color: white;
+    height: 20px;
+}
+.navbar > a.button {
+    background-color: red;
+    display:block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.navbar > a.button :hover {
+    background-color: red;
+    display:block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
