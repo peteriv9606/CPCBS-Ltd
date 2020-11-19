@@ -154,6 +154,8 @@ div.navbar > a.button:hover {
 
 div.wrapper{
     display:flex;
+    padding-bottom: 150px;
+    background-color: black;
 }
 
 div.advert{
